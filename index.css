@@ -38,11 +38,15 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
-.am:hover{
+.am:hover {
   color: white !important;
 }
 .sk:hover {
@@ -80,7 +84,12 @@ body {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(./images/desk.jpg);
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(./images/desk.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,11 +118,24 @@ body {
 .fa-node {
   font-size: 50px;
 }
-.api, .express, .mys{
+.api,
+.express,
+.mys {
   height: 50px;
   width: 50px;
 }
-.iconTxt{
+.icon {
+  background-color: white;
+  display: block;
+  border-radius: 50% !important;
+  height: 7rem;
+  width: 7rem;
+  line-height: 7.5rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.iconTxt {
   font-size: 50px;
 }
 #skills-section,
@@ -121,7 +143,7 @@ body {
   background-color: #c0bdbb;
   font-family: "Paytone One";
 }
-#project-section{
+#project-section {
   font-family: "Paytone One";
 }
 
