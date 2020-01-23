@@ -1,39 +1,59 @@
 body {
   text-align: center;
 }
-
-.navbar {
-  height: 70px !important;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
+.navbar {
+  height: 60px !important;
+  overflow: hidden;
+}
+.am:hover {
+  color: #b83253 !important;
+}
+.pt:hover {
+  color: #6072bd !important;
+}
+.rm:hover {
+  color: #87c05b !important;
+}
+.ct:hover {
+  color: #feb93d !important;
+}
+.gh:hover {
+  color: #2498b1 !important;
+}
 .tabs {
   color: #777777;
   margin-top: 20px;
   list-style: none;
 }
-
 .tabs:visited {
   color: #777777;
 }
-
 #collapsibleNavbar {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-
 .intro {
-  background-image: url("gameboy.jpg");
+  background-image: url("./images/gameboyFix.jpg");
+  width: 100%;
   /* background: url("http://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"); */
 }
-
-#me-section, #resume-section {
+#me-section,
+#resume-section {
   /* background: url("https://wallpaperset.com/w/full/6/1/1/533091.jpg"); */
   background-color: #ece5da;
   font-family: "Paytone One";
-
 }
-#iam, #projects, #resume{
+#iam,
+#projects,
+#resume,
+#contact {
   font-size: 45px;
 }
 .fa-sun,
@@ -42,7 +62,40 @@ body {
 .fa-journal-whills {
   font-size: 50px;
 }
-#project-section {
+#project-section,
+#contact-section {
   background-color: #feb93d;
   font-family: "Paytone One";
+}
+
+.contactTxt {
+  font-size: 50px;
+}
+
+#me-section,
+#resume-section,
+#project-section,
+#contact-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#meTxt {
+  font-family: "Paytone One";
+  font-size: 25px;
+}
+#niteowl,
+#weather,
+#quiz,
+#password,
+#day {
+  cursor: pointer;
+}
+
+.intro{
+  padding-top: 65px;
 }
