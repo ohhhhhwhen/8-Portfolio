@@ -24,74 +24,60 @@
     <title>Welcome</title>
   </head>
   <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Owen Chanthala's Portfolio</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarNavAltMarkup"
-      >
-        <div class="navbar-nav">
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a class="nav-item nav-link am" href="#top-section">Owen Chanthala</a>
           <a class="nav-item nav-link am" href="#me-section">About Me</a>
+          <a class="nav-item nav-link sk" href="#skills-section">Skills</a>
           <a class="nav-item nav-link pt" href="#project-section">Projects</a>
-          <a class="nav-item nav-link rm" href="#resume-section">Resume</a>
           <a class="nav-item nav-link ct" href="#contact-section">Contact</a>
+          <a class="nav-item nav-link rm" href="#resume-section">Resume</a>
           <a class="nav-link nav-link gh" href="https://github.com/ohhhhhwhen"
-            >GitHub</a
-          >
+            >GitHub</a>
         </div>
-      </div>
-    </nav>
+    <i class="fas fa-bars" id="navIcon" style="font-size:30px;cursor:pointer" onclick="openNav()"></i>
     <div class="content">
-      <div class="intro">
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-              <h1 id="jump" class="noJump">
-                <span id="l1" class="noJump">O</span>
-                <span id="l2" class="noJump">W</span>
-                <span id="l3" class="noJump">E</span>
-                <span id="l4" class="noJump">N</span>
-                <!-- <hr> -->
-                <br />
-                <span id="l5" class="noJump">C</span>
-                <span id="l6" class="noJump">H</span>
-                <span id="l7" class="noJump">A</span>
-                <span id="l8" class="noJump">N</span>
-                <span id="l9" class="noJump">T</span>
-                <span id="l10" class="noJump">H</span>
-                <span id="l11" class="noJump">A</span>
-                <span id="l12" class="noJump">L</span>
-                <span id="l13" class="noJump">A</span>
-                <!-- <hr> -->
-              </h1>
+      <section id="top-section">
+      <header class="intro">
+        <div class="container text-center my-auto">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <h1 id="jump" class="noJump">
+                    <span id="l1" class="noJump">O</span>
+                    <span id="l2" class="noJump">W</span>
+                    <span id="l3" class="noJump">E</span>
+                    <span id="l4" class="noJump">N</span>
+                    <br />
+                    <span id="l5" class="noJump">C</span>
+                    <span id="l6" class="noJump">H</span>
+                    <span id="l7" class="noJump">A</span>
+                    <span id="l8" class="noJump">N</span>
+                    <span id="l9" class="noJump">T</span>
+                    <span id="l10" class="noJump">H</span>
+                    <span id="l11" class="noJump">A</span>
+                    <span id="l12" class="noJump">L</span>
+                    <span id="l13" class="noJump">A</span>
+                  </h1>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-              <h3 id="intro">
-                <br />
-                <span class="introTxt">Full Stack Web Developer</span>
-                <span class="introTxt">Who Takes Responsibility And</span>
-                <span class="introTxt">Creative Approaches To</span>
-                <span class="introTxt">Application Development</span>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <h3>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <span class="introTxt">Full Stack Web Developer</span>
+                    <span class="introTxt">Who Takes Responsibility And</span>
+                    <span class="introTxt">Creative Approaches To</span>
+                    <span class="introTxt">Application Development</span>
+                  </h3>
+              </div>
+      </header>
+    </section>
       <section id="me-section">
         <div class="container">
           <div class="row">
@@ -130,11 +116,57 @@
         <br />
         <br />
       </section>
+      <section id="skills-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p id="FSS">Full Stack Skill Set</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+                <i class="fab fa-html5"></i>
+                <p class="iconTxt">HTML</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fab fa-css3-alt"></i>
+                <p class="iconTxt">CSS</p>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <i class="fab fa-js"></i>
+                  <p class="iconTxt">Javascript</p>
+              </div>
+              <div class="col-md-6">
+                  <img class="api" src="images/api.png">
+                  <p class="iconTxt">API</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fab fa-node"></i>
+                    <p class="iconTxt">Node.js</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="express" src="images/express.png">
+                    <p class="iconTxt">Express.js</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                    <img class="mys" src="images/mysql.png">
+                    <p class="iconTxt">MySQL</p>
+                </div>
+              </div>
+        </div>
+      </section>
       <section id="project-section">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <p id="projects">Projects</p>
+              <br>
             </div>
           </div>
           <div class="row">
@@ -142,37 +174,36 @@
               <img
                 id="niteowl"
                 src="images/NiteOwl.png"
-                width="350px"
-                height="200px"
+                width="450px"
+                height="300px"
               />
               <img
                 id="weather"
                 src="images/weatherfix.jpg"
-                width="350px"
-                height="200px"
-              />
-              <img
-                id="quiz"
-                src="images/quiz.jpg"
-                width="350px"
-                height="200px"
+                width="450px"
+                height="300px"
               />
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
+                <img
+                id="quiz"
+                src="images/quiz.jpg"
+                width="450px"
+                height="300px"
+              />
               <img
                 id="password"
                 src="images/password.jpg"
-                width="350px"
-                height="200px"
+                width="450px"
+                height="300px"
               />
-              <img id="day" src="images/day.png" width="350px" height="200px" />
             </div>
           </div>
         </div>
       </section>
-      <section id="resume-section">
+      <!-- <section id="resume-section">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -187,7 +218,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section id="contact-section">
         <div class="container">
           <div class="row">
