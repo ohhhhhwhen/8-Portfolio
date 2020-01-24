@@ -20,29 +20,32 @@ function stopFunction() {
 stopFunction();
 
 //Sticky Navbar
-// window.onscroll = function() {
-//   stickyNav();
-// };
+window.onscroll = function() {
+  stickyNav();
+};
 
 
-// var navbar = document.getElementById("navIcon");
-// var sticky = navbar.offsetTop;
+var navbar = document.getElementById("navIcon");
+var sticky = navbar.offsetTop;
 
-// function stickyNav() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky");
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
+function stickyNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 
 //SideNav
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("navIcon").classList.add("hide");
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("navIcon").classList.remove("hide");
+
 }
 
 //Project Links
