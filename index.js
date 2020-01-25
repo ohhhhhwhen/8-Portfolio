@@ -69,3 +69,21 @@ $("#password").on("click", function() {
 $("#day").on("click", function() {
   window.location.href = "https://ohhhhhwhen.github.io/5-Day-Planner/";
 });
+
+// EMail Me
+function mailme(){
+  window.location.href = "mailto:owenchanthala@gmail.com";
+}
+// linkedin
+function lkIn(){
+  window.location.href = "https://www.linkedin.com/in/owen-chanthala/";
+}
+// GitHub
+function mygithub(){
+  window.location.href = "https://github.com/ohhhhhwhen";
+}
+// button scroll
+
+function scrolldown(){
+  window.location.href = "#me-section";
+}

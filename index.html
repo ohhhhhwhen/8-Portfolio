@@ -24,8 +24,6 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="cool-text.css" />
-    <link rel="stylesheet" type="text/css" href="iconMoving.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Welcome</title>
   </head>
@@ -35,15 +33,19 @@
         >&times;</a
       >
       <a class="nav-item nav-link oc" href="#top-section">Owen Chanthala</a>
+      <hr>
       <a class="nav-item nav-link am" href="#me-section">About Me</a>
+      <hr>
       <a class="nav-item nav-link sk" href="#skills-section">Skills</a>
+      <hr>
       <a class="nav-item nav-link pt" href="#project-section">Projects</a>
-      <a class="nav-item nav-link ct" href="#contact-section">Contact</a>
+      <hr>
       <a
         class="nav-item nav-link rm"
         href="https://ohhhhhwhen.github.io/resume/"
         >Resume</a
       >
+      <hr>
       <a class="nav-link nav-link gh" href="https://github.com/ohhhhhwhen"
         >GitHub</a
       >
@@ -95,6 +97,7 @@
               </h3>
             </div>
           </div>
+          <i class="fas fa-arrow-circle-down" onclick="scrolldown()"></i>
         </header>
       </section>
       <section id="me-section">
@@ -107,15 +110,24 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4">
-              <img
-                src="./images/me.jpeg"
-                alt="My Picture"
-                height="400"
-                width="350"
-              />
+            <div class="col-lg-5">
+                <div
+                class="LI-profile-badge"
+                data-version="v1"
+                data-size="medium"
+                data-locale="en_US"
+                data-type="vertical"
+                data-theme="dark"
+                data-vanity="owen-chanthala"
+              >
+                <a
+                  class="LI-simple-link"
+                  href="https://www.linkedin.com/in/owen-chanthala?trk=profile-badge"
+                  >Owen Chanthala</a
+                >
+              </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-7">
               <p id="meTxt">
                 Hi, my name is Owen Chanthala. I lived and studied in San Diego,
                 California. I love sports, arts, anime, and fashion. Concerning
@@ -233,62 +245,17 @@
           </div>
         </div>
       </section>
-      <section id="contact-section">
+      <footer id="contact-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <p id="contact">Contact</p>
+            <div class="col-lg-12 contactIcons">
+              <i class="fa fa-envelope" title="Email" onclick="mailme()"></i>
+              <i class="fab fa-linkedin-in" title="Linkedin" onclick="lkIn()"></i>
+              <i class="fab fa-github" title="GitHub" onclick="mygithub()"></i>
             </div>
-          </div>
-          <div class="row movingIcon">
-            <div class="col-md-12">
-              <i class="fas fa-mobile-alt faa-ring animated fa-4x"></i>
-              <i class="fa fa-envelope faa-horizontal animated fa-4x"></i>
-            </div>
-          </div>
-          <div class="row contactTxt">
-            <div class="col-md-6">
-              <div
-                class="LI-profile-badge"
-                data-version="v1"
-                data-size="medium"
-                data-locale="en_US"
-                data-type="vertical"
-                data-theme="dark"
-                data-vanity="owen-chanthala"
-              >
-                <a
-                  class="LI-simple-link"
-                  href="https://www.linkedin.com/in/owen-chanthala?trk=profile-badge"
-                  >Owen Chanthala</a
-                >
-              </div>
-            </div>
-            <div class="col-lg-5">
-              <i class="fa fa-envelope" title="Email"></i>
-              <br />
-              <a href="mailto:owenchanthala@gmail.com">Email Me</a>
-              <br>
-              <br>
-              <i class="fab fa-github" title="GitHub"></i>
-              <br />
-              <a href="https://github.com/ohhhhhwhen">GitHub Page</a>
-            </div>
-            <!-- <div class="col-lg-4">
-              <i class="fab fa-linkedin-in" title="Linkedin"></i>
-              <br />
-              <a href="https://www.linkedin.com/in/owen-chanthala/"
-                >Linkedin Profile</a
-              >
-            </div> -->
-            <!-- <div class="col-lg-4">
-              <i class="fab fa-github" title="GitHub"></i>
-              <br />
-              <a href="https://github.com/ohhhhhwhen">GitHub Page</a>
-            </div> -->
           </div>
         </div>
-      </section>
+      </footer>
     </div>
     <script
       type="text/javascript"
