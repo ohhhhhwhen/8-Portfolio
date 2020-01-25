@@ -167,10 +167,13 @@ html {
 }
 #me-section,
 #resume-section,
-#project-section,
-#contact-section {
+#project-section {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+#contact-section{
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 #meTxt {
   font-family: "Paytone One";
