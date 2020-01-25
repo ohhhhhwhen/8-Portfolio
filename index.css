@@ -137,14 +137,17 @@ html {
 .mys {
   height: 50px;
   width: 50px;
+  border: black;
 }
 .icon {
   background-color: white;
   display: block;
+  border-style: solid !important;
+  border-color: black !important;
   border-radius: 50% !important;
   height: 7rem;
   width: 7rem;
-  line-height: 7.5rem;
+  line-height: 6.5rem;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -176,7 +179,6 @@ html {
 #niteowl,
 #weather,
 #quiz,
-#password,
-#day {
+#password{
   cursor: pointer;
 }
