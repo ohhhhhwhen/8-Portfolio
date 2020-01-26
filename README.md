@@ -20,7 +20,7 @@ Project is created with:
 * Google/W3
 	
 ## Files / Running Page
-* Here are some screen shots of the running page from an images folder:
+* This is a screen shot of the running page from an images folder:
 
  ![Starting Page](images/running-portfolio.png)
 
