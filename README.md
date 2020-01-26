@@ -22,7 +22,7 @@ Project is created with:
 ## Files / Running Page
 * Here are some screen shots of the running page from an images folder:
 
- ![Starting Page](images/running-portfolio)
+ ![Starting Page](images/running-portfolio.png)
 
 ## Key Notes
 * Make sure to include the bootstrap link:
