@@ -60,7 +60,7 @@ html {
   color: white !important;
 }
 .am:hover {
-  color: #b83253  !important;
+  color: #b83253 !important;
 }
 .sk:hover {
   color: #6072bd !important;
@@ -74,7 +74,7 @@ html {
 .gh:hover {
   color: #2498b1 !important;
 }
-.fa-arrow-circle-down:hover{
+.fa-arrow-circle-down:hover {
   opacity: 50%;
 }
 .tabs {
@@ -123,13 +123,13 @@ html {
 }
 #iam,
 #FSS,
-#projects{
+#projects {
   font-size: 45px;
 }
-#projects{
+#projects {
   margin-top: -68px;
 }
-.fa-arrow-circle-down{
+.fa-arrow-circle-down {
   font-size: 50px;
   margin-top: 40px;
 }
@@ -141,13 +141,14 @@ html {
 }
 .fa-envelope,
 .fa-linkedin-in,
-.fa-github{
+.fa-github {
   font-size: 50px;
 }
 .fa-envelope:hover,
 .fa-linkedin-in:hover,
-.fa-github:hover{
-color: white;}
+.fa-github:hover {
+  color: white;
+}
 .api,
 .express,
 .mys {
@@ -175,18 +176,18 @@ color: white;}
   background-color: #c0bdbb;
   font-family: "Paytone One";
 }
-#skills-section{
+#skills-section {
   padding-bottom: 30px;
 }
 #me-section {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-#project-section{
+#project-section {
   padding-top: 85px;
   padding-bottom: 85px;
 }
-#contact-section{
+#contact-section {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -199,8 +200,29 @@ color: white;}
 #quiz,
 #password {
   cursor: pointer;
+  border: solid;
+  border-width: 20px;
 }
-.contactIcons{
+#niteowl:hover,
+#weather:hover,
+#quiz:hover,
+#password:hover {
+  cursor: pointer;
+  border: none;
+}
+#weather,
+#password{
+  margin-left: 5px; 
+}
+#niteowl,
+#quiz{
+  margin-right: 5px; 
+}
+#quiz,
+#password{
+  margin-top: 10px; 
+}
+.contactIcons {
   display: flex;
   justify-content: space-evenly;
 }
