@@ -202,6 +202,7 @@ html {
   cursor: pointer;
   border: solid;
   border-width: 20px;
+  margin: 15px 15px 15px 15px;
 }
 #niteowl:hover,
 #weather:hover,
@@ -210,7 +211,7 @@ html {
   cursor: pointer;
   border: none;
 }
-#weather,
+/* #weather,
 #password{
   margin-left: 5px; 
 }
@@ -221,7 +222,7 @@ html {
 #quiz,
 #password{
   margin-top: 10px; 
-}
+} */
 .contactIcons {
   display: flex;
   justify-content: space-evenly;
