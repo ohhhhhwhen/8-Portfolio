@@ -55,19 +55,19 @@ $("#niteowl").on("click", function() {
 });
 
 $("#weather").on("click", function() {
-  window.location.href = " https://ohhhhhwhen.github.io/6-Weather-Dashboard/";
+  window.location.href = "https://ohhhhhwhen.github.io/Location-Weather/";
 });
 
 $("#quiz").on("click", function() {
-  window.location.href = " https://ohhhhhwhen.github.io/4-Code-Quiz/";
+  window.location.href = "https://ohhhhhwhen.github.io/Class-Quiz/";
 });
 
 $("#password").on("click", function() {
-  window.location.href = "https://ohhhhhwhen.github.io/3-Password-Generator/";
+  window.location.href = "https://ohhhhhwhen.github.io/Generate-My-Password/";
 });
 
 $("#day").on("click", function() {
-  window.location.href = "https://ohhhhhwhen.github.io/5-Day-Planner/";
+  window.location.href = "https://ohhhhhwhen.github.io/Work-Day-Scheduler/";
 });
 
 // EMail Me
