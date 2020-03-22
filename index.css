@@ -380,7 +380,12 @@ h1 span:nth-child(14) {
     font-size: 25px;
   }
 }
-
+@media screen and (max-width: 450px) {
+.text{
+  font-size: 8px !important;
+  padding: 0px 10px !important;
+}
+}
 .hoverContainer {
   position: relative;
   width: 50%;
