@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="author" content="Owen Chanthala">
+    <meta name="author" content="Owen Chanthala" />
+    <meta name="subject" content="Creative Full-Stack Web Developer" />
     <meta
-      name="subject"
-      content="Creative Full-Stack Web Developer"
+      name="keywords"
+      content="coding, developing, JavaScript, CSS, HTML, HTML5, JQUERY, API, Node.js, Expree.js, MySQL, C++, Web Developer, Responsive Designs"
     />
-    <meta name="keywords" content="coding, developing, JavaScript, CSS, HTML, HTML5, JQUERY, API, Node.js, Expree.js, MySQL, C++, Web Developer, Responsive Designs" />
     <script
       src="https://kit.fontawesome.com/ce46380fe9.js"
       crossorigin="anonymous"
@@ -30,7 +30,7 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" type="image/jpg" href="./images/flower.ico"/>
+    <link rel="shortcut icon" type="image/jpg" href="./images/flower.ico" />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <title>Owen Chanthala Portfolio</title>
   </head>
@@ -40,19 +40,19 @@
         >&times;</a
       >
       <a class="nav-item nav-link oc" href="#top-section">Owen Chanthala</a>
-      <hr>
+      <hr />
       <a class="nav-item nav-link am" href="#me-section">About Me</a>
-      <hr>
+      <hr />
       <a class="nav-item nav-link sk" href="#skills-section">Skills</a>
-      <hr>
+      <hr />
       <a class="nav-item nav-link pt" href="#project-section">Projects</a>
-      <hr>
+      <hr />
       <a
         class="nav-item nav-link rm"
         href="https://ohhhhhwhen.github.io/resume/"
         >Resume</a
       >
-      <hr>
+      <hr />
       <a class="nav-link nav-link gh" href="https://github.com/ohhhhhwhen"
         >GitHub</a
       >
@@ -118,7 +118,7 @@
           </div>
           <div class="row">
             <div class="col-lg-5">
-                <div
+              <div
                 class="LI-profile-badge"
                 data-version="v1"
                 data-size="medium"
@@ -137,14 +137,11 @@
             <div class="col-lg-7">
               <p id="meTxt">
                 Hi, my name is Owen Chanthala. I lived and studied in San Diego,
-                California. I love sports, arts, anime, and fashion. Concerning
-                sports, my favorite teams are the Chargers, Lakers, and Padres.
-                With the arts, I am very fond of the artwork and creativity of
-                anime and fashion. From vintage, current trends and high end.
-                Before coming to Seattle, I would sell various items from my
-                closet, that I either purchased at some point or thrifted
-                somewhere. As of now, I am studying to be a Full Stack Web
-                Developer at the University of Washington Bootcamp.
+                California. I love sports, arts, anime, and fashion. As of now,
+                I am studying to be a Full Stack Web Developer at the University
+                of Washington Bootcamp. Tackling the job industry early on and
+                working on my future. Finding a workplace where I will fit in
+                very soon.
               </p>
             </div>
           </div>
@@ -219,35 +216,133 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
-              <img
-                id="niteowl"
-                src="images/NiteOwl.png"
-                width="450px"
-                height="300px"
-              />
-              <img
-                id="weather"
-                src="images/weatherfix.jpg"
-                width="450px"
-                height="300px"
-              />
+            <div class="container hoverContainer">
+              <img src="./images/NiteOwl.png" alt="Avatar" class="owl" />
+              <div class="middle">
+                <div class="text">Night Owl</div>
+                <p class="text">
+                  A Javascript application that allows users to plan a night out
+                </p>
+                <i
+                  class="fab fa-github text"
+                  id="mouseCursor"
+                  title="GitHub"
+                  onclick="niteOwlGitRepo()"
+                ></i>
+                <i
+                  class="fas fa-laptop-code text"
+                  id="mouseCursor"
+                  onclick="niteOwlDeploy()"
+                ></i>
+              </div>
+            </div>
+            <div class="container hoverContainer">
+              <img src="./images/weatherfix.jpg" alt="Avatar" class="weather" />
+              <div class="middle">
+                <div class="text">Weather Dashboard</div>
+                <p class="text">
+                  An API application that displays a searched location's
+                  upcoming weather
+                </p>
+                <i
+                  class="fab fa-github text"
+                  id="mouseCursor"
+                  title="GitHub"
+                  onclick="weatherGitRepo()"
+                ></i>
+                <i
+                  class="fas fa-laptop-code text"
+                  id="mouseCursor"
+                  onclick="weatherDeploy()"
+                ></i>
+              </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
-              <img
-                id="quiz"
-                src="images/quiz.jpg"
-                width="450px"
-                height="300px"
-              />
-              <img
-                id="password"
-                src="images/password.jpg"
-                width="450px"
-                height="300px"
-              />
+            <div class="container hoverContainer">
+              <img src="./images/quiz.jpg" alt="Avatar" class="quiz" />
+              <div class="middle">
+                <div class="text">JavaScript Quiz</div>
+                <p class="text">
+                  A timed Javascript quiz application with ranked highscores
+                </p>
+                <i
+                  class="fab fa-github text"
+                  id="mouseCursor"
+                  title="GitHub"
+                  onclick="quizGitRepo()"
+                ></i>
+                <i
+                  class="fas fa-laptop-code text"
+                  id="mouseCursor"
+                  onclick="quizDeploy()"
+                ></i>
+              </div>
+            </div>
+            <div class="container hoverContainer">
+              <img src="./images/password.jpg" alt="Avatar" class="password" />
+              <div class="middle">
+                <div class="text">Password Generator</div>
+                <p class="text">
+                  An HTML5 application that creates random passwords for users
+                  in a click of a button
+                </p>
+                <i
+                  class="fab fa-github text"
+                  title="GitHub"
+                  id="mouseCursor"
+                  onclick="passwordGitRepo()"
+                ></i>
+                <i
+                  class="fas fa-laptop-code text"
+                  id="mouseCursor"
+                  onclick="passwordDeploy()"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="container hoverContainer">
+              <img src="./images/burgerApp.png" alt="Avatar" class="burger" />
+              <div class="middle">
+                <div class="text">Burgers DB</div>
+                <p class="text">
+                  Using SQL to create a burger database, being to add and update
+                  the database
+                </p>
+                <i
+                  class="fab fa-github text"
+                  id="mouseCursor"
+                  title="GitHub"
+                  onclick="burgerGitRepo()"
+                ></i>
+                <i
+                  class="fas fa-laptop-code text"
+                  id="mouseCursor"
+                  onclick="burgerDeploy()"
+                ></i>
+              </div>
+            </div>
+            <div class="container hoverContainer">
+              <img src="./images/game.png" alt="Avatar" class="game" />
+              <div class="middle">
+                <div class="text">Virus Wars</div>
+                <p class="text">
+                  A HTML5 game created with Phaser, involving users to run, jump
+                  and dodge
+                </p>
+                <i
+                  class="fab fa-github text"
+                  title="GitHub"
+                  id="mouseCursor"
+                  onclick="virusGitRepo()"
+                ></i>
+                <i
+                  class="fas fa-laptop-code text"
+                  id="mouseCursor"
+                  onclick="virusDeploy()"
+                ></i>
+              </div>
             </div>
           </div>
         </div>
@@ -257,7 +352,11 @@
           <div class="row">
             <div class="col-lg-12 contactIcons">
               <i class="fa fa-envelope" title="Email" onclick="mailme()"></i>
-              <i class="fab fa-linkedin-in" title="Linkedin" onclick="lkIn()"></i>
+              <i
+                class="fab fa-linkedin-in"
+                title="Linkedin"
+                onclick="lkIn()"
+              ></i>
               <i class="fab fa-github" title="GitHub" onclick="mygithub()"></i>
             </div>
           </div>

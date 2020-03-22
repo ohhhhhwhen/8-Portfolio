@@ -82,8 +82,55 @@ function lkIn(){
 function mygithub(){
   window.location.href = "https://github.com/ohhhhhwhen";
 }
+// niteOwlGit
+function niteOwlGitRepo(){
+  window.location.href = "https://github.com/Olsenben77/D8-Nite---Ben-Henry-Lloyd-Owen";
+}
+// niteOwlDeploy
+function niteOwlDeploy(){
+  window.location.href = "https://olsenben77.github.io/D8-Nite---Ben-Henry-Lloyd-Owen/";
+}
+// weatherGit
+function weatherGitRepo(){
+  window.location.href = "https://github.com/ohhhhhwhen/Location-Weather";
+}
+// weatherDeploy
+function weatherDeploy(){
+  window.location.href = "https://ohhhhhwhen.github.io/Location-Weather/";
+}
+// passwordGit
+function quizGitRepo(){
+  window.location.href = "https://github.com/ohhhhhwhen/Class-Quiz";
+}
+// weatherDeploy
+function quizDeploy(){
+  window.location.href = "https://ohhhhhwhen.github.io/Class-Quiz/";
+}
+// passwordGit
+function passwordGitRepo(){
+  window.location.href = "https://github.com/ohhhhhwhen/Generate-My-Password";
+}
+// weatherDeploy
+function passwordDeploy(){
+  window.location.href = "https://ohhhhhwhen.github.io/Generate-My-Password/";
+}
+// burgerGit
+function burgerGitRepo(){
+  window.location.href = "https://github.com/ohhhhhwhen/Burger";
+}
+// burgerDeploy
+function burgerDeploy(){
+  window.location.href = "https://burgers-devoured.herokuapp.com/";
+}
+// virusGit
+function virusGitRepo(){
+  window.location.href = "https://github.com/Olsenben77/Project-2";
+}
+// virusDeploy
+function virusDeploy(){
+  window.location.href = "https://project2-remy-owen-ben.herokuapp.com/";
+}
 // button scroll
-
 function scrolldown(){
   window.location.href = "#me-section";
 }
